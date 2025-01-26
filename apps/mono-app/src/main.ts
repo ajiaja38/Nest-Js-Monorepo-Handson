@@ -6,6 +6,6 @@ async function bootstrap() {
   const app = await NestFactory.create(MonoAppModule);
   await app.listen(process.env.port ?? 3000);
 
-  Logger.log(`Application is running on: ${await app.getUrl()}`);
+  Logger.log(`Application is running on this link: ${await app.getUrl()}`);
 }
 bootstrap();
