@@ -6,7 +6,7 @@ export class MonoAppService {
   constructor(private readonly authService: AuthService) {}
 
   getHello(): string {
-    return 'Hello World!';
+    return 'Hello World';
   }
 
   public getAuthLib(): string {
